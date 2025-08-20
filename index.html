@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,57 +9,165 @@
 </head>
 
 <body>
-    <h2 id="tableHeading">Semester II Schedule</h2>
-    
-    <div class="table-wrapper">
-        <table aria-labelledby="tableHeading" aria-label="second semester Schedule">
-            <caption>Fig: Semester 2 Course Schedule</caption>
-            <thead>
-                <tr>
-                    <th id="course" scope="col">Course</th>
-                    <th id="Time" scope="colgroup" colspan="2">Time</th>
-                    <th id="Room" scope="col">Room</th>
-                    <th id="Day" scope="col">Day</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th id="English" scope="rowgroup" rowspan="2" headers="course"> English II</th>
-                    <td headers="English Time">9:000</td>
-                    <td headers="English Time">11:000</td>
-                    <td headers="English Room">L2201</td>
-                    <td headers="English Day">Monday</td>    
-                </tr>
-                
-                <tr>
-                    <td headers="English Time">9:00</td>
-                    <td headers="English Time">11:00</td>
-                    <td headers="English Room">L2201</td>
-                    <td headers="English Day">Wednesday</td>                        
-                </tr>
+    <div class="table1">
 
-                <tr>
-                    <th id="Geography" scope="row">Geography</th>
-                    <td headers="Geography Time">11:00</td>
-                    <td headers="Geography Time">12:45</td>
-                    <td headers="Geography Room">G107</td>
-                    <td headers="Geography Day">Tuesday</td>
-                </tr>
+        <h2 id="tableHeading">Semester II Schedule</h2>
 
-            </tbody>
-            
-            <tfoot>
-                <tr>
-                    <th id="Biology" scope="row">Biology</th>
-                    <td headers="Biology Time">9:00</td>
-                    <td headers="Biology Time">11:00</td>
-                    <td headers="Biology Room">B302</td>
-                    <td headers="Biology Day">Friday</td>
-                </tr>
-                
-            </tfoot>
+        <div class="table-wrapper">
+            <table aria-labelledby="tableHeading" aria-label="second semester Schedule">
+                <caption>Fig: Semester 2 Course Schedule</caption>
+                <thead>
+                    <tr>
+                        <th id="course" scope="col">Course</th>
+                        <th id="Time" scope="colgroup" colspan="2">Time</th>
+                        <th id="Room" scope="col">Room</th>
+                        <th id="Day" scope="col">Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="English" scope="rowgroup" rowspan="2" headers="course"> English II</th>
+                        <td headers="English Time">9:000</td>
+                        <td headers="English Time">11:000</td>
+                        <td headers="English Room">L2201</td>
+                        <td headers="English Day">Monday</td>
+                    </tr>
 
-        </table>
+                    <tr>
+                        <td headers="English Time">9:00</td>
+                        <td headers="English Time">11:00</td>
+                        <td headers="English Room">L2201</td>
+                        <td headers="English Day">Wednesday</td>
+                    </tr>
+
+                    <tr>
+                        <th id="Geography" scope="row">Geography</th>
+                        <td headers="Geography Time">11:00</td>
+                        <td headers="Geography Time">12:45</td>
+                        <td headers="Geography Room">G107</td>
+                        <td headers="Geography Day">Tuesday</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th id="Biology" scope="row">Biology</th>
+                        <td headers="Biology Time">9:00</td>
+                        <td headers="Biology Time">11:00</td>
+                        <td headers="Biology Room">B302</td>
+                        <td headers="Biology Day">Friday</td>
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </div>
+    </div>
+
+    <div class="table2">
+        <h2>product comparison chart</h2>
+        <div class="table-wrapper">
+            <table aria-labelledby="tableHeading" aria-label="product comparison chart">
+                <caption>Fig: comparison of the features between the products.</caption>
+                <thead>
+                    <tr>
+                        <th id="empty" scope="col"></th>
+                        <th id="productA" scope="col">Product A</th>
+                        <th id="productB" scope="col">Product B</th>
+                        <th id="productC" scope="col">Product c</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th id="Durability" scope="row">Durability</th>
+                        <td headers="Durability productA">10/10</td>
+                        <td headers="Durability productB">5/10</td>
+                        <td headers="Durability productC">7/10</td>
+                    </tr>
+
+                    <tr>
+                        <th id="Design" scope="row">Design</th>
+                        <td headers="Design productA">3/10</td>
+                        <td headers="Design productB">8/10</td>
+                        <td headers="Design productC">7/10</td>
+                    </tr>
+                    <tr>
+
+                        <th id="Usability" scope="row">Usability</th>
+                        <td headers="Usability productA">7/10</td>
+                        <td headers="Usability productB">1010</td>
+                        <td headers="Usability productC">5/10</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+
+                        <th id="price" scope="row">Price</th>
+                        <td headers="Price productA">9/10</td>
+                        <td headers="Price productB">7/10</td>
+                        <td headers="Price productC">3/10</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="table3">
+        <h2> top 5 handheld PC</h2>
+        <div class="table-wrapper">
+            <table aria-labelledby="tableHeading" aria-label="HandHeld comparison">
+                <caption>Fig: comparison of gamesradar.com</caption>
+                <thead>
+
+                    <tr>
+                        <th id="empty" scope="col"></th>
+                        <th id="SteamDeck" scope="col">Steam deck Oled</th>
+                        <th id="Nintendo Switch" scope="col">Nintendo switch 2</th>
+                        <th id="Rog ally" scope="col">Asus Rog ally</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th id="Picture" scope="row">Picture</th>
+                        <td headers="Picture SteamDeck"><img src="./assets/steamdeck.jpg" alt=""></td>
+                        <td headers="Picture Nintendo switch"><img src="./assets/Switch 2.jpg" alt=""></td>
+                        <td headers="Picture Rog ally"><img src="./assets/Rog Ally.webp" alt=""></td>
+                    </tr>
+
+                    <tr>
+                        <th id="price" scope="row">Price</th>
+                        <td headers="price SteamDeck">$649</td>
+                        <td headers="price Nintendo switch">$510</td>
+                        <td headers="price Rog ally">$800</td>
+                    </tr>
+
+                    <tr>
+                        <th id="batteryTime" scope="row">Battery life</th>
+                        <td headers="batteryTime SteamDeck">3 - 7 horas</td>
+                        <td headers="batteryTime Nintendo switch">2.5 - 6.5 horas</td>
+                        <td headers="batteryTime Rog ally">2 - 7 horas</td>
+                    </tr>
+
+                    <tr>
+                        <th id="pantalla" scope="row">Screen Size</th>
+                        <td headers="pantalla SteamDeck">7.4"</td>
+                        <td headers="pantalla Nintendo switch">6.2"</td>
+                        <td headers="pantalla Rog ally">7"</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                </tfoot>
+
+            </table>
+
+        </div>
 
     </div>
 
